@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog do Amostradinho</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <img src="./img/amostradinho_logo.png" alt="Logo" class="nav-logo">
+        <h1>Blog do Amostradinho...</h1>
+    </nav>
+    <main>
+        <section>
+            <form id="postForm">
+                <input type="text" id="titulo" placeholder="Título" required>
+                <textarea id="conteudo" placeholder="Escreva seu conteúdo aqui..." rows="5" required></textarea>
+                <button type="submit">Postar</button>
+            </form>
+        </section>
+        <aside>
+            <article class="post-output">
+                <h2 id="renderizador-titulo"></h2>
+                <p id="renderizador-conteudo"></p>
+            </article>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; 2024 <a href="https://www.youtube.com/watch?v=mGau9QzZ-HY" target="_blank">Amostradinho Meme</a></p>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
